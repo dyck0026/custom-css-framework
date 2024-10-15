@@ -8,6 +8,7 @@ button {
     color: variables.$light-color;
     background-color: variables.$dark-color;
     margin-bottom: variables.$spacing-medium;
+    box-shadow: variables.$box-shadow;
 }
 
 .btn-primary {
