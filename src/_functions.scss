@@ -1,0 +1,10 @@
+@use 'sass:math';
+@use 'sass:color';
+
+@function column-width($columns) {
+    @return calc(100% / $max-column-number) * $columns + '%';
+}
+
+@function color-opacity($color, $opacity) {
+    @return ('rgba(' + red($color) + ',' + green($color) + ',' + blue($color) + ',' + $opacity + ')');
+}
