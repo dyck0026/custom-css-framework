@@ -1,22 +1,22 @@
 // Variables
-@import 'variables';
+@import '_variables';
 
 // Functions and mixins
-@import 'functions';
-@import 'mixins';
+@import '_functions';
+@import '_mixins';
 
 // Base styles
-@import 'reset';
-@import 'typography';
+@import '_reset';
+@import '_typography';
 
 // Components
-@import 'buttons';
-@import 'forms';
-@import 'lists';
-@import 'tables';
+@import '_buttons';
+@import '_forms';
+@import '_lists';
+@import '_tables';
 
 // Layout
-@import 'layout';
+@import '_layout';
 
 // Utilities
-@import 'utilities';
+@import '_utilities';
