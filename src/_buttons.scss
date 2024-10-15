@@ -1,0 +1,47 @@
+@use 'variables';
+
+button {
+    font-size: variables.$font-size-base;
+    padding: variables.$button-padding-vertical variables.$button-padding-horizontal;
+    border-radius: variables.$button-border-radius;
+    border: none;
+    color: variables.$light-color;
+    background-color: variables.$dark-color;
+}
+
+.btn-primary {
+    color: variables.$light-color;
+    background-color: variables.$primary-color;
+}
+
+.btn-primary:hover {
+    color: variables.$primary-color;
+    background-color: variables.$light-color;
+}
+
+.btn-secondary {
+    color: variables.$light-color;
+    background-color: variables.$secondary-color;
+}
+
+.btn-secondary:hover {
+    color: variables.$secondary-color;
+    background-color: variables.$light-color;
+}
+
+.btn-accent {
+    color: variables.$dark-color;
+    background-color: variables.$light-color;
+}
+
+.btn-outline {
+    background: none;
+    border: solid 1px variables.$dark-color;
+    color: variables.$dark-color;
+}
+
+.btn-outline:hover {
+    background-color: variables.$light-color;
+    border: solid 1px variables.$dark-color;
+    color: variables.$dark-color;
+}
