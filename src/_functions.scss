@@ -6,5 +6,5 @@
 }
 
 @function color-opacity($color, $opacity) {
-    @return ('rgba(' + red($color) + ',' + green($color) + ',' + blue($color) + ',' + $opacity + ')');
+    @return ('rgba(' + color.channel($color, "red") + ',' + color.channel($color, "blue") + ',' + color.channel($color, "green") + ',' + $opacity + ')');
 }
