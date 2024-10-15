@@ -1,0 +1,37 @@
+@use 'variables';
+
+form {
+    border: solid 1px variables.$primary-color;
+    border-radius: variables.$spacing-small;
+    width: min(100%, variables.$tablet-screen-size);
+    padding: variables.$spacing-medium;
+    margin-bottom: variables.$spacing-medium;
+    box-shadow: variables.$box-shadow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: variables.$spacing-small;
+    }
+
+    input {
+        height: variables.$spacing-large;
+        padding: $border-radius variables.$spacing-small;
+    }
+
+    textarea {
+        padding: $border-radius variables.$spacing-small;
+        margin-bottom: variables.$spacing-small;
+    }
+
+    button {
+        width: min(200px, 100%);
+    }
+}
