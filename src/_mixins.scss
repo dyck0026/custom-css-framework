@@ -16,11 +16,25 @@
     }
 }
 
-@mixin generate-columns($columns) {
+@mixin generate-columns($columns: $max-column-number, $breakpoint: null) {
     @for $i from 1 through $columns {
+        // default column classes
         .col-#{$i} {
-            width: column-width($i);
-            float: left;
+            flex: 0 0 (100% / $columns) * $i;
+            max-width: (100% / $columns) * $i;
+            padding-left: variables.$gutter-width / 2;
+            padding-right: variables.$gutter-width / 2;
+        }
+    }
+    // make responsive if breakpoint is triggered
+    @if $breakpoint != null {
+        @media (min-width: $breakpoint) {
+            @for $i from 1 through $columns {
+                .col-#{breakpoint}-#{$i} {
+                    flex: 00 (100% / $columns) * $i;
+                    max-width: (100% / $columns) * $i;
+                }
+            }
         }
     }
 }

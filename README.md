@@ -105,33 +105,47 @@ Facilis provides a range of utility classes for quick styling:
 
 ### Background Colors
 
-- `bg_primary`: Primary background color
-- `bg_secondary`: Secondary background color
-- `bg_info`: Info background color
-- `bg_danger`: Danger background color
-- `bg_warning`: Warning background color
-- `bg_light`: Light background color
-- `bg_dark`: Dark background color
+- `bg-primary`: Primary background color
+- `bg-secondary`: Secondary background color
+- `bg-info`: Info background color
+- `bg-danger`: Danger background color
+- `bg-warning`: Warning background color
+- `bg-light`: Light background color
+- `bg-dark`: Dark background color
 
 ### Text Colors
 
-- `text_primary`: Primary text color
-- `text_secondary`: Secondary text color
-- `text_info`: Info text color
-- `text_danger`: Danger text color
-- `text_warning`: Warning text color
-- `text_light`: Light text color
-- `text_dark`: Dark text color
+- `text-primary`: Primary text color
+- `text-secondary`: Secondary text color
+- `text-info`: Info text color
+- `text-danger`: Danger text color
+- `text-warning`: Warning text color
+- `text-light`: Light text color
+- `text-dark`: Dark text color
+
+### Text Bold
+
+- `text-bold`: Adds Bold effect to text
+
+### Text Size
+
+- `text-sm`: Changes text size to small
+- `text-md`: Changes text size to medium
+- `text-lg`: Changes text size to large
 
 ### Border Colors
 
-- `border_primary`: Primary border color
-- `border_secondary`: Secondary border color
-- `border_info`: Info border color
-- `border_danger`: Danger border color
-- `border_warning`: Warning border color
-- `border_light`: Light border color
-- `border_dark`: Dark border color
+- `border-primary`: Primary border color
+- `border-secondary`: Secondary border color
+- `border-info`: Info border color
+- `border-danger`: Danger border color
+- `border-warning`: Warning border color
+- `border-light`: Light border color
+- `border-dark`: Dark border color
+
+### Border Corners
+
+- `border-round`: give rounded borders
 
 ### Widths
 
@@ -143,6 +157,7 @@ Facilis provides a range of utility classes for quick styling:
 ### Opacity
 
 - `bg-opacity-50-primary`: 50% opacity primary background color
+- `bg-opacity-50-secondary`: 50% opacity secondary background color
 
 ### Example usage:
 ```
