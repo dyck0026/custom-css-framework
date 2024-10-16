@@ -1,0 +1,28 @@
+@use 'variables';
+
+
+ul, ol, li {
+    margin-left: variables.$spacing-medium;
+    padding: 0;
+    border: 0;
+    font-size: variables.$font-size-large;
+    vertical-align: baseline;
+}
+
+ul, ol {
+    margin: variables.$spacing-large;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li {
+    margin-bottom: variables.$spacing-small;
+}
+
+
