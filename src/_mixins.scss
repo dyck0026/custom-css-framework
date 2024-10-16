@@ -1,3 +1,5 @@
+@use 'variables';
+
 @mixin mq($device) {
     @if $device == tablet {
         @media(min-width: $tablet-screen-size) {

@@ -1,5 +1,6 @@
 @use 'sass:math';
 @use 'sass:color';
+@use 'variables';
 
 @function column-width($columns) {
     @return calc(100% / $max-column-number) * $columns + '%';

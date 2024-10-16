@@ -1,3 +1,5 @@
+@use 'variables';
+
 .text-left {
     text-align: left;
 }
@@ -8,70 +10,88 @@
     text-align: center;
 }
 
-.bg_primary {
+.bg-primary {
     background-color: $primary-color;
 }
-.bg_secondary {
+.bg-secondary {
     background-color: $secondary-color;
 }
-.bg_info {
+.bg-info {
     background-color: $info-color;
 }
-.bg_danger {
+.bg-danger {
     background-color: $danger-color;
 }
-.bg_warning {
+.bg-warning {
     background-color: $warning-color;
 }
-.bg_light {
+.bg-light {
     background-color: $light-color;
 }
-.bg_dark {
+.bg-dark {
     background-color: $dark-color;
 }
 
-.border_primary {
+.border-primary {
     border: 1px $primary-color solid;
 }
-.border_secondary {
+.border-secondary {
     border: 1px $secondary-color solid;
 }
-.border_info {
+.border-info {
     border: 1px $info-color solid;
 }
-.border_danger {
+.border-danger {
     border: 1px $danger-color solid;
 }
-.border_warning {
+.border-warning {
     border: 1px $warning-color solid;
 }
-.border_light {
+.border-light {
     border: 1px $light-color solid;
 }
-.border_dark {
+.border-dark {
     border: 1px $dark-color solid;
 }
 
-.text_primary {
+.border-round {
+    border-radius: $font-size-xx-large;
+}
+
+.text-primary {
     color: $primary-color;
 }
-.text_secondary {
+.text-secondary {
     color: $secondary-color;
 }
-.text_info {
+.text-info {
     color: $info-color;
 }
-.text_danger {
+.text-danger {
     color: $danger-color;
 }
-.text_warning {
+.text-warning {
     color: $warning-color;
 }
-.text_light {
+.text-light {
     color: $light-color;
 }
-.text_dark {
+.text-dark {
     color: $dark-color;
+}
+
+.text-bold {
+    font-weight: $font-weight-bold;
+}
+
+.text-sm {
+    font-size: $font-size-small;
+}
+.text-md {
+    font-size: $font-size-base;
+}
+.text-lg {
+    font-size: $font-size-large;
 }
 
 .sm-width {
