@@ -2,46 +2,52 @@
 @use 'mixins';
 
 body {
-    @include generate-columns($max-column-number);
+    // @include generate-columns($max-column-number);
 
-
+    .color-block div {
+        min-height: 50px;
+    }
 
     .container {
         width: 80%;
         margin: 0 auto;
+    }
 
-        header {
-            background-color: variables.$light-color;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .main {
-            display: flex;
-            flex-direction: column; 
-        }
-
-        .lists {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        
-            h2 {
-                flex-basis: 100%;
-            }
-        }
-
-        .table-section {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            
-            h2 {
-                flex-basis: 100%;
-            }
-        }
-
+    header {
+        background-color: variables.$light-color;
+        padding: 20px;
+        text-align: center;
     }
 
 }
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -(variables.$gutter-width) / 2;
+    margin-right: -(variables.$gutter-width) / 2;
+    justify-content: space-around;
+}
+
+// base column styling
+.col {
+    padding-left: $gutter-width / 2;
+    padding-right: $gutter-width / 2;
+    box-sizing: border-box;
+    flex-grow: 1;
+    // flex-shrink: 1;
+}
+
+// base select width column styling
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+// uses generate-columns mixin to create column classes for each breakpoint (ex. col-breakpoint-md-6)
+@include generate-columns($max-column-number);
+@include generate-columns($max-column-number, $breakpoint-sm);  
+@include generate-columns($max-column-number, $breakpoint-md);  
+@include generate-columns($max-column-number, $breakpoint-lg);  
+@include generate-columns($max-column-number, $breakpoint-xl);

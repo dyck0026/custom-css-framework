@@ -50,4 +50,11 @@ $desktop-screen-size: 1600px;
 
 // Columns
 $max-column-number: 12;
-$gutter: 1rem;
+$gutter-width: 1rem;
+$columns: 12;
+
+// Responsive Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
