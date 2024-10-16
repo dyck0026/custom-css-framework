@@ -110,3 +110,25 @@
 .bg-opacity-50-primary {
     background-color: color-opacity($primary-color, 0.5);
 }
+.bg-opacity-50-secondary {
+    background-color: color-opacity($secondary-color, 0.5);
+}
+
+.margin-sm {
+    margin: $spacing-small;
+}
+.margin-md {
+    margin: $spacing-medium;
+}
+.margin-lg {
+    margin: $spacing-large;
+}
+.padding-sm {
+    padding: $spacing-small;
+}
+.padding-md {
+    padding: $spacing-medium;
+}
+.padding-lg {
+    padding: $spacing-large;
+}

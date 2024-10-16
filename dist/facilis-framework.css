@@ -1,17 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 /* http://meyerweb.com/eric/tools/css/reset/
    v5.0.2 | 20191019
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -232,51 +223,51 @@ table tbody td, table tbody th {
 }
 
 body .col-1 {
-  width: "8.3333333333%%";
+  width: 8.3333333333%;
   float: left;
 }
 body .col-2 {
-  width: "16.6666666667%%";
+  width: 16.6666666667%;
   float: left;
 }
 body .col-3 {
-  width: "25%%";
+  width: 25%;
   float: left;
 }
 body .col-4 {
-  width: "33.3333333333%%";
+  width: 33.3333333333%;
   float: left;
 }
 body .col-5 {
-  width: "41.6666666667%%";
+  width: 41.6666666667%;
   float: left;
 }
 body .col-6 {
-  width: "50%%";
+  width: 50%;
   float: left;
 }
 body .col-7 {
-  width: "58.3333333333%%";
+  width: 58.3333333333%;
   float: left;
 }
 body .col-8 {
-  width: "66.6666666667%%";
+  width: 66.6666666667%;
   float: left;
 }
 body .col-9 {
-  width: "75%%";
+  width: 75%;
   float: left;
 }
 body .col-10 {
-  width: "83.3333333333%%";
+  width: 83.3333333333%;
   float: left;
 }
 body .col-11 {
-  width: "91.6666666667%%";
+  width: 91.6666666667%;
   float: left;
 }
 body .col-12 {
-  width: "100%%";
+  width: 100%;
   float: left;
 }
 body .container {
@@ -443,7 +434,35 @@ body .container .table-section h2 {
 }
 
 .bg-opacity-50-primary {
-  background-color: "rgba(87,144,117,0.5)";
+  background-color: rgba(87, 144, 117, 0.5);
+}
+
+.bg-opacity-50-secondary {
+  background-color: rgba(240, 75, 138, 0.5);
+}
+
+.margin-sm {
+  margin: 8px;
+}
+
+.margin-md {
+  margin: 16px;
+}
+
+.margin-lg {
+  margin: 24px;
+}
+
+.padding-sm {
+  padding: 8px;
+}
+
+.padding-md {
+  padding: 16px;
+}
+
+.padding-lg {
+  padding: 24px;
 }
 
 /*# sourceMappingURL=facilis-framework.css.map */

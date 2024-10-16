@@ -3,9 +3,9 @@
 @use 'variables';
 
 @function column-width($columns) {
-    @return calc(100% / $max-column-number) * $columns + '%';
+    @return calc(100% / $max-column-number) * $columns;
 }
 
 @function color-opacity($color, $opacity) {
-    @return ('rgba(' + color.channel($color, "red") + ',' + color.channel($color, "blue") + ',' + color.channel($color, "green") + ',' + $opacity + ')');
+    @return rgba(color.channel($color, "red"), color.channel($color, "blue"), color.channel($color, "green"), $opacity);
 }
