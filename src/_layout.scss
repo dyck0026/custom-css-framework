@@ -1,0 +1,47 @@
+@use 'variables';
+@use 'mixins';
+
+body {
+    @include generate-columns($max-column-number);
+
+
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+
+        header {
+            background-color: variables.$light-color;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column; 
+        }
+
+        .lists {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        
+            h2 {
+                flex-basis: 100%;
+            }
+        }
+
+        .table-section {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            h2 {
+                flex-basis: 100%;
+            }
+        }
+
+    }
+
+}
