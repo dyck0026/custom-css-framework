@@ -1,0 +1,26 @@
+@use 'variables';
+
+table {
+    margin: variables.$spacing-large;
+    font-size: variables.$font-size-base;
+    border-radius: variables.$border-radius;
+
+
+    thead tr {
+        background-color: variables.$primary-color;
+        color: variables.$light-color;
+    }
+
+    td, th {
+        padding: variables.$spacing-medium;
+    }
+    
+    tbody {
+        background-color: variables.$light-color;
+    }
+
+    tbody td, tbody th {
+        border: 1px solid $primary-color;
+    }
+}
+
