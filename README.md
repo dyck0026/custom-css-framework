@@ -183,7 +183,7 @@ Facilis provides a range of utility classes for quick styling:
 ## Customization
 To customize Facilis, you can modify the variables in the _variables.scss file. Key variables include:
 ```
-scssCopy$primary-color: #577590;
+$primary-color: #577590;
 $secondary-color: #f08a4b;
 $font-family-base: 'Open Sans, sans-serif';
 $font-size-base: 16px;
