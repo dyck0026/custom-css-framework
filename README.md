@@ -159,6 +159,18 @@ Facilis provides a range of utility classes for quick styling:
 - `bg-opacity-50-primary`: 50% opacity primary background color
 - `bg-opacity-50-secondary`: 50% opacity secondary background color
 
+### Margins
+
+- `margin-sm`: Margin spacing is set to small
+- `margin-md`: Margin spacing is set to medium
+- `margin-lg`: Margin spacing is set to large
+
+### Padding
+
+- `padding-sm`: Padding spacing is set to small
+- `padding-md`: Padding spacing is set to medium
+- `padding-lg`: Padding spacing is set to large
+
 ### Example usage:
 ```
 <div class="bg_primary text_light text-center">
