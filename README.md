@@ -173,10 +173,10 @@ Facilis provides a range of utility classes for quick styling:
 
 ### Example usage:
 ```
-<div class="bg_primary text_light text-center">
+<div class="bg-primary text-light text-center">
     This is a centered text with primary background and light text color.
 </div>
-<div class="border_secondary md-width">
+<div class="border-secondary md-width">
     This is a div with secondary border color and medium width.
 </div>
 ```
